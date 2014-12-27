@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1C65D0A1A4F737700608C78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C65D091A4F737700608C78 /* AppDelegate.swift */; };
+		A1C65D0C1A4F737700608C78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C65D0B1A4F737700608C78 /* ViewController.swift */; };
+		A1C65D0F1A4F737700608C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C65D0D1A4F737700608C78 /* Main.storyboard */; };
+		A1C65D111A4F737700608C78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C65D101A4F737700608C78 /* Images.xcassets */; };
+		A1C65D141A4F737700608C78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1C65D121A4F737700608C78 /* LaunchScreen.xib */; };
+		A1C65D201A4F737700608C78 /* Train_SpotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C65D1F1A4F737700608C78 /* Train_SpotterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C65D1A1A4F737700608C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C65CFC1A4F737700608C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C65D031A4F737700608C78;
+			remoteInfo = "Train Spotter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1C65D041A4F737700608C78 /* Train Spotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Train Spotter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C65D081A4F737700608C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C65D091A4F737700608C78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1C65D0B1A4F737700608C78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1C65D0E1A4F737700608C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1C65D101A4F737700608C78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1C65D131A4F737700608C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1C65D191A4F737700608C78 /* Train SpotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Train SpotterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C65D1E1A4F737700608C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C65D1F1A4F737700608C78 /* Train_SpotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train_SpotterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C65D011A4F737700608C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C65D161A4F737700608C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C65CFB1A4F737700608C78 = {
+			isa = PBXGroup;
+			children = (
+				A1C65D061A4F737700608C78 /* Train Spotter */,
+				A1C65D1C1A4F737700608C78 /* Train SpotterTests */,
+				A1C65D051A4F737700608C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C65D051A4F737700608C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65D041A4F737700608C78 /* Train Spotter.app */,
+				A1C65D191A4F737700608C78 /* Train SpotterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C65D061A4F737700608C78 /* Train Spotter */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65D091A4F737700608C78 /* AppDelegate.swift */,
+				A1C65D0B1A4F737700608C78 /* ViewController.swift */,
+				A1C65D0D1A4F737700608C78 /* Main.storyboard */,
+				A1C65D101A4F737700608C78 /* Images.xcassets */,
+				A1C65D121A4F737700608C78 /* LaunchScreen.xib */,
+				A1C65D071A4F737700608C78 /* Supporting Files */,
+			);
+			path = "Train Spotter";
+			sourceTree = "<group>";
+		};
+		A1C65D071A4F737700608C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65D081A4F737700608C78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C65D1C1A4F737700608C78 /* Train SpotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65D1F1A4F737700608C78 /* Train_SpotterTests.swift */,
+				A1C65D1D1A4F737700608C78 /* Supporting Files */,
+			);
+			path = "Train SpotterTests";
+			sourceTree = "<group>";
+		};
+		A1C65D1D1A4F737700608C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C65D1E1A4F737700608C78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C65D031A4F737700608C78 /* Train Spotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C65D231A4F737700608C78 /* Build configuration list for PBXNativeTarget "Train Spotter" */;
+			buildPhases = (
+				A1C65D001A4F737700608C78 /* Sources */,
+				A1C65D011A4F737700608C78 /* Frameworks */,
+				A1C65D021A4F737700608C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Train Spotter";
+			productName = "Train Spotter";
+			productReference = A1C65D041A4F737700608C78 /* Train Spotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1C65D181A4F737700608C78 /* Train SpotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C65D261A4F737700608C78 /* Build configuration list for PBXNativeTarget "Train SpotterTests" */;
+			buildPhases = (
+				A1C65D151A4F737700608C78 /* Sources */,
+				A1C65D161A4F737700608C78 /* Frameworks */,
+				A1C65D171A4F737700608C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C65D1B1A4F737700608C78 /* PBXTargetDependency */,
+			);
+			name = "Train SpotterTests";
+			productName = "Train SpotterTests";
+			productReference = A1C65D191A4F737700608C78 /* Train SpotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C65CFC1A4F737700608C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tutukain;
+				TargetAttributes = {
+					A1C65D031A4F737700608C78 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A1C65D181A4F737700608C78 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A1C65D031A4F737700608C78;
+					};
+				};
+			};
+			buildConfigurationList = A1C65CFF1A4F737700608C78 /* Build configuration list for PBXProject "Train Spotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C65CFB1A4F737700608C78;
+			productRefGroup = A1C65D051A4F737700608C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C65D031A4F737700608C78 /* Train Spotter */,
+				A1C65D181A4F737700608C78 /* Train SpotterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C65D021A4F737700608C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C65D0F1A4F737700608C78 /* Main.storyboard in Resources */,
+				A1C65D141A4F737700608C78 /* LaunchScreen.xib in Resources */,
+				A1C65D111A4F737700608C78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C65D171A4F737700608C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C65D001A4F737700608C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C65D0C1A4F737700608C78 /* ViewController.swift in Sources */,
+				A1C65D0A1A4F737700608C78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C65D151A4F737700608C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C65D201A4F737700608C78 /* Train_SpotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1C65D1B1A4F737700608C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C65D031A4F737700608C78 /* Train Spotter */;
+			targetProxy = A1C65D1A1A4F737700608C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1C65D0D1A4F737700608C78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C65D0E1A4F737700608C78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C65D121A4F737700608C78 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C65D131A4F737700608C78 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C65D211A4F737700608C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1C65D221A4F737700608C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C65D241A4F737700608C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Train Spotter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1C65D251A4F737700608C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Train Spotter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1C65D271A4F737700608C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Train SpotterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Train Spotter.app/Train Spotter";
+			};
+			name = Debug;
+		};
+		A1C65D281A4F737700608C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Train SpotterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Train Spotter.app/Train Spotter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C65CFF1A4F737700608C78 /* Build configuration list for PBXProject "Train Spotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C65D211A4F737700608C78 /* Debug */,
+				A1C65D221A4F737700608C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C65D231A4F737700608C78 /* Build configuration list for PBXNativeTarget "Train Spotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C65D241A4F737700608C78 /* Debug */,
+				A1C65D251A4F737700608C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1C65D261A4F737700608C78 /* Build configuration list for PBXNativeTarget "Train SpotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C65D271A4F737700608C78 /* Debug */,
+				A1C65D281A4F737700608C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C65CFC1A4F737700608C78 /* Project object */;
+}
