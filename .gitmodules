@@ -1,0 +1,3 @@
+[submodule "lib/swiftcsv"]
+	path = lib/swiftcsv
+	url = https://github.com/naoty/SwiftCSV.git
