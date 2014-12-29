@@ -32,6 +32,7 @@
 		A1C65D5F1A4FDA0600608C78 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C65D5E1A4FDA0600608C78 /* ScheduleModel.swift */; };
 		A1C65D611A4FDE4D00608C78 /* ScheduleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C65D601A4FDE4D00608C78 /* ScheduleCollection.swift */; };
 		A1C65D631A4FE5D500608C78 /* ScheduleUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C65D621A4FE5D500608C78 /* ScheduleUtilities.swift */; };
+		A1C65D651A51D1C000608C78 /* GeoUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C65D641A51D1C000608C78 /* GeoUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		A1C65D5E1A4FDA0600608C78 /* ScheduleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
 		A1C65D601A4FDE4D00608C78 /* ScheduleCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCollection.swift; sourceTree = "<group>"; };
 		A1C65D621A4FE5D500608C78 /* ScheduleUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleUtilities.swift; sourceTree = "<group>"; };
+		A1C65D641A51D1C000608C78 /* GeoUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				A1C65D601A4FDE4D00608C78 /* ScheduleCollection.swift */,
 				A1C65D621A4FE5D500608C78 /* ScheduleUtilities.swift */,
 				A1C65D0D1A4F737700608C78 /* Main.storyboard */,
+				A1C65D641A51D1C000608C78 /* GeoUtilities.swift */,
 				A1C65D101A4F737700608C78 /* Images.xcassets */,
 				A1C65D121A4F737700608C78 /* LaunchScreen.xib */,
 				A1C65D071A4F737700608C78 /* Supporting Files */,
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C65D651A51D1C000608C78 /* GeoUtilities.swift in Sources */,
 				A1C65D401A4F7F7300608C78 /* RouteModel.swift in Sources */,
 				A1C65D5B1A4FCBE600608C78 /* StopModel.swift in Sources */,
 				A1C65D0C1A4F737700608C78 /* ViewController.swift in Sources */,

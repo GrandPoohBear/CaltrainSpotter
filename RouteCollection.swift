@@ -12,6 +12,9 @@ import MapKit
 class RouteCollection : NSObject {
     var routes = [String:RouteModel]()
     
+    private var coordinateRegion: MKCoordinateRegion!
+    
+    
     func parseFromFile() {
         let csvURL = NSBundle.mainBundle().URLForResource("shapes", withExtension: "txt")
         var error: NSErrorPointer = nil
@@ -52,6 +55,9 @@ class RouteCollection : NSObject {
     }
     
     func getCoordinateRegion() -> MKCoordinateRegion {
+        if coordinateRegion != nil {
+            return coordinateRegion
+        }
         
         var minLat:Double = 100000000000
         var minLon:Double = 100000000000
@@ -93,6 +99,8 @@ class RouteCollection : NSObject {
         
         var centerCoord = CLLocationCoordinate2DMake(midLat, midLon)
         
-        return MKCoordinateRegionMake(centerCoord, span)
+        coordinateRegion = MKCoordinateRegionMake(centerCoord, span)
+
+        return coordinateRegion
     }
 }
