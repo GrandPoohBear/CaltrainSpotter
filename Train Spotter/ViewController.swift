@@ -32,34 +32,41 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         self.mapView.delegate = self
         
-        // Initialize our data from files
-        // TODO: Move to a background thread
-        routeCollection.parseFromFile()
-        stopCollection.parseFromFile()
-        scheduleCollection.parseFromFile()
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        dispatch_async(dispatch_get_global_queue(priority, 0)) {
+            // Initialize our data from files
+            // TODO: Move to a background thread
+            self.routeCollection.parseFromFile()
+            self.stopCollection.parseFromFile()
+            self.scheduleCollection.parseFromFile()
+            
+            dispatch_async(dispatch_get_main_queue()) {
+                // Move the map view to the region around the Caltrain line
+                self.mapView.setRegion(self.routeCollection.getCoordinateRegion(), animated: true)
+                
+                // We won't want to keep updating the map region if the user moves it themselves
+                // add a gesture recognizer to the map to prevent future updates
+                var panGestureRecognizer = UIPanGestureRecognizer(target: self, action: "didDragMap:")
+                panGestureRecognizer.delegate = self
+                self.mapView.addGestureRecognizer(panGestureRecognizer)
+                
+                // Set things up to get the user's location
+                self.locationManager = CLLocationManager()
+                self.locationManager.delegate = self
+                self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+                self.locationManager.requestWhenInUseAuthorization()
+                self.locationManager.startUpdatingLocation()
+                
+                self.addRouteOverlays()
+                self.addStopAnnotations()
+                
+                self.updateTrains()
+                
+                self.trainUpdateTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: "updateTrains", userInfo: nil, repeats: true)            }
+        }
         
-        // Move the map view to the region around the Caltrain line
-        mapView.setRegion(routeCollection.getCoordinateRegion(), animated: true)
         
-        // We won't want to keep updating the map region if the user moves it themselves
-        // add a gesture recognizer to the map to prevent future updates
-        var panGestureRecognizer = UIPanGestureRecognizer(target: self, action: "didDragMap:")
-        panGestureRecognizer.delegate = self
-        mapView.addGestureRecognizer(panGestureRecognizer)
         
-        // Set things up to get the user's location
-        locationManager = CLLocationManager()
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingLocation()
-        
-        addRouteOverlays()
-        addStopAnnotations()
-        
-        updateTrains()
-        
-        trainUpdateTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: "updateTrains", userInfo: nil, repeats: true)
     }
     
     func addRouteOverlays() {
